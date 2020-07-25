@@ -9,7 +9,7 @@
     <h1 ><a>NAMU</a></h1>
     <h2>회원정보 입력</h2>
     <div class="signUP">
-    <form action="/loopy/webpage/process/process_sign_up.php" method="post">
+    <form action="process/process_sign_up.php" method="post">
         <table>
         <tr height="2"><td colspan="2"></td></tr>
         <tr>

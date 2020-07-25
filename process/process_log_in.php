@@ -18,7 +18,7 @@
         $_SESSION['id']=$row['u_id'];
         $_SESSION['pw']=$row['u_pw'];
         $_SESSION['nick']=$row['u_nick'];
-        header('Location: /loopy/webpage/index.php');
+        header('Location: ../index.php');
         
     }
 

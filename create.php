@@ -5,7 +5,7 @@ $result = mysqli_query($connect,$sql);
 $tag=" ";
 if($row=mysqli_fetch_array($result)){
      $tag= $tag."
-    <form action='./process/process_create.php' method='post'>
+    <form action='process/process_create.php' method='post'>
     <input type='hidden' name='point' value='{$row['point']}'>
     <table>
     <tr>
@@ -28,7 +28,7 @@ if($row=mysqli_fetch_array($result)){
     </form>"; 
     
 } else{
-    header("Location: ./index.php");
+    header("Location: index.php");
 }
 
 ?>

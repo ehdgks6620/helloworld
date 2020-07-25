@@ -9,7 +9,7 @@
 <h1><a>NAMU</a></h1>
 <p>로그인 하셔야 합니다.</p>
 
-<form action="/loopy/webpage/process/process_log_in.php" method="post">
+<form action="process/process_log_in.php" method="post">
 <table>
 <tr>
     <th>아이디</th>

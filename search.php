@@ -41,7 +41,7 @@ if($category == "title"){
 
 <div class="main">
     <h3>게시판</h3>
-    <form action="./search.php" >
+    <form action="search.php" >
         <select name="categori">
         <option value="title">제목</option>
         <option value="author">저자</option>    
@@ -60,7 +60,7 @@ if($category == "title"){
     <table>
     <tr><h3>이전 페이지</h3></tr>
     <tr>
-    <button><a href="./index.php">돌아가기</a></button>
+    <button><a href="index.php">돌아가기</a></button>
     </tr></table>
 </div>  
     

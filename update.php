@@ -40,7 +40,7 @@
 </head>
 <body>
 <div class="top"> 
-    <div class="namu"><a href='./index.php'>NAMU</a></div>
+    <div class="namu"><a href='index.php'>NAMU</a></div>
 </div>
 
 </div>

@@ -22,7 +22,7 @@ if($result===false){
     echo $result.error($connect);
 }else{
     echo "<script>alert('회원가입에 성공했습니다.')</script>
-        <a href='/loopy/webpage/index.php'>다시 돌아가기</a>";
+        <a href='../index.php'>다시 돌아가기</a>";
 }
 
 ?>

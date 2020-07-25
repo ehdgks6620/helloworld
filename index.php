@@ -8,7 +8,7 @@
     $greet = " ";
     if($row = mysqli_fetch_array($result)){
         $tag = $tag."<div class='tag tag_1'>
-        <a class='a' href='../webpage/process/process_log_out.php'>로그아웃</a>
+        <a class='a' href='process/process_log_out.php'>로그아웃</a>
         <a class='a' href='resign_up.php'>정보수정</a>
         <a class='a' href='create.php'>글작성하기</a></div>";
         $greet = $greet."<p>".$row['u_nick']."님 환영합니다!!</p>";
@@ -72,7 +72,7 @@
 </head>
 <body>
 <div class="top"> 
-    <div class="namu"><a href='./index.php'>NAMU</a></div>
+    <div class="namu"><a href='index.php'>NAMU</a></div>
     <?php echo $tag ?>
     <?php echo $greet ?>
 </div>
@@ -81,7 +81,7 @@
 <div class="main">
     
     <h3>게시판</h3>
-    <form action="./search.php" >
+    <form action="search.php" >
         <select name="categori">
         <option value="title">제목</option>
         <option value="author">저자</option>    
